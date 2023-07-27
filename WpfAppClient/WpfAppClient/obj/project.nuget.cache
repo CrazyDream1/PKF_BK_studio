@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fz+o2Jg+1ftLwm4xyYdSkCnZPRAjSPQ8yyjpMtNj4T1+U1JB4i5Lod2f9OAzR9jV2GNFk2EbVZ1sFZpt8tIGuw==",
+  "success": true,
+  "projectFilePath": "D:\\Unity\\PKF_BK_studio_git\\WpfAppClient\\WpfAppClient\\WpfAppClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavlo\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}

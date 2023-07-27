@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fuZbEXHJ/pIpTMVz62+gpm05DRwzqP8exlfZdfhapkXiqVx2t5cS2NqGcJGV4tt33ceUxvWAlop69DAmnUI4zA==",
+  "success": true,
+  "projectFilePath": "D:\\Unity\\PKF_BK_studio_git\\PKF_BK_studio\\WpfApp\\WpfApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavlo\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\pavlo\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\pavlo\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}

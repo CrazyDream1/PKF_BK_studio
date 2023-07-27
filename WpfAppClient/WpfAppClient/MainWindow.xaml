@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppClient"
+        mc:Ignorable="d"
+        Title="Test" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <TextBox x:Name="TheAnswer" Width="500" Margin="5"/>
+            <Button Content="Ответить" Margin="5" Command="{Binding SendAnswerCommand, UpdateSourceTrigger=PropertyChanged}"
+                    CommandParameter="{Binding ElementName=TheAnswer, Path=Text}"/>
+        </StackPanel>
+        <TextBox DockPanel.Dock="Bottom" Text="{Binding CurrentQuestion, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" IsEnabled="False"/>
+    </DockPanel>
+</Window>
